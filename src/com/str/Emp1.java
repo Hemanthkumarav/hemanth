@@ -3,13 +3,18 @@ package com.str;
 class Emp1 {
 	int id;
 	String name;
-	/**
-	 * 
-	 */
-	public Emp1() {
-		super();
-		// TODO Auto-generated constructor stub
+	
+
+	Emp1(int id, String name) {
+		
+		this.id = id;
+		this.name = name;
 	}
 
-
+	@Override
+	public String toString() {
+		return "Emp1 [id=" + id + ", name=" + name + "]";
+	}
+	
 }
+	
