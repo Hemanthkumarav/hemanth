@@ -1,0 +1,10 @@
+get->void->accessing the elements->string arg;
+close->void ->close the browser
+driver.manage().window().maximize()->maximize the window
+maximize->void ->present in window
+window->window -> present in options
+manage->options ->present in web drivers;
+quit->void;
+gettitle->string
+getcurrenturl->string;
+
