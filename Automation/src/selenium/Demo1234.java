@@ -10,7 +10,7 @@ public class Demo1234 {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.naukri.com/");
-		String parent=driver.getWindowHandle();
+		String parent=driver.getWindowHandle();//parent
 		System.out.println(parent + "p");
 		Set<String>wins=driver.getWindowHandles();//parent and child opens closes;
 		Thread.sleep(2000);

@@ -24,7 +24,9 @@ public class Demogmail {
 		driver.findElement(By.name("password")).sendKeys("hemanth1997",Keys.ENTER);
 		
 		/*WebElement log=driver.findElement(By.id("loginbutton"));
-		log.click();*/
+		log.click();
+		
+		*/
 				
 		
 		
